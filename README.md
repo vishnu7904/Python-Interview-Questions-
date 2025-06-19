@@ -19,3 +19,9 @@ Using `set(list)` removes duplicates because sets only store unique values.
 ```python
 my_list = [1, 2, 2, 3]
 unique = list(set(my_list))  # [1, 2, 3]
+-----
+
+
+### 3. Why are dictionaries faster than lists for lookups?
+Dictionaries use hashing for O(1) average lookup time, while lists use O(n) linear search.
+
